@@ -1,0 +1,29 @@
+server:
+  port: 6060
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/taxpayer
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  health:
+    diskspace:
+      enabled: true
+    db:
+      enabled: true
+
+
+springdoc:
+  api-docs:
+    path: /v1/taxpayer-api-doc
