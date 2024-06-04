@@ -13,8 +13,7 @@ import java.util.List;
 @RequestMapping("customer")
 @Tag(name = "Customer", description = "Customer APIs")
 public class CustomerController {
-
-
+    
     @Autowired
     private CustomerService customerService;
 
