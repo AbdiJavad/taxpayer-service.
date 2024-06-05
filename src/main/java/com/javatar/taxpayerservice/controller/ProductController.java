@@ -12,7 +12,6 @@ import java.util.List;
 @RequestMapping("product")
 @Tag(name = "Product", description = "Product APIs")
 public class ProductController {
-
     @Autowired
     private ProductService productService;
 
