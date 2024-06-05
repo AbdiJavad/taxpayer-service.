@@ -12,6 +12,7 @@ import java.util.List;
 @RequestMapping("product")
 @Tag(name = "Product", description = "Product APIs")
 public class ProductController {
+
     @Autowired
     private ProductService productService;
 
@@ -19,7 +20,7 @@ public class ProductController {
     public Product save(
             @RequestBody Product product) {
         return productService.save(product);
-        
+
     }
 
     @GetMapping
