@@ -22,7 +22,6 @@ public class ProductController {
         return productService.save(product);
 
     }
-
     @GetMapping
     public List<Product> products() {
         return productService.products();
