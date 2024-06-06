@@ -14,7 +14,6 @@ import java.util.List;
 public class ProductController {
     @Autowired
     private ProductService productService;
-
     @PostMapping
     public Product save(
             @RequestBody Product product) {
