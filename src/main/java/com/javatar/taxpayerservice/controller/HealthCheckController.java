@@ -21,7 +21,7 @@ public class HealthCheckController {
     private HealthCheckRepository healthCheckRepository;
 
     @GetMapping
-    public List<HealthCheck> healthChecks(){
+    public List<HealthCheck> healthChecks() {
         HealthCheck check = new HealthCheck();
         check.setPublicationDate(new Date());
         check.setPublicationTime(new Date());
