@@ -27,7 +27,7 @@ public class SellerController {
         return sellerService.sellers();
     }
 
-    
+
     @GetMapping("/{id}")
     public Seller findSellerById(@PathVariable(value = "id") Long id) {
         return sellerService.findSellerById(id);
