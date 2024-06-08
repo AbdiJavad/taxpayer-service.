@@ -16,6 +16,7 @@ public class SellerController {
     @Autowired
     private SellerService sellerService;
 
+    
     @PostMapping
     public Seller save(@RequestBody Seller seller) {
         return sellerService.save(seller);
