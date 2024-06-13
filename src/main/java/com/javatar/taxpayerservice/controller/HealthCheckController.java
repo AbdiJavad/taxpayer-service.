@@ -17,7 +17,7 @@ import java.util.Timer;
 @RequestMapping("health")
 @Tag(name = "Health", description = "Health APIs")
 public class HealthCheckController {
-    
+
     @Autowired
     private HealthCheckRepository healthCheckRepository;
 
