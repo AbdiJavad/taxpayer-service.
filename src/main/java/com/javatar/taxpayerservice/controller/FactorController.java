@@ -22,6 +22,7 @@ public class FactorController {
             @RequestBody Factor factor) {
         return factorService.save(customerid, sellerid, factor);
     }
+
     @GetMapping
     public List<Factor> factors() {
         return factorService.factors();
