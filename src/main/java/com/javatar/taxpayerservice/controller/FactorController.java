@@ -12,7 +12,6 @@ import java.util.List;
 @RequestMapping("factor")
 @Tag(name = "Factor", description = "Factor APIs")
 public class FactorController {
-
     @Autowired
     private FactorService factorService;
 
