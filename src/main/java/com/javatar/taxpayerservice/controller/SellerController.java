@@ -15,7 +15,7 @@ public class SellerController {
 
     @Autowired
     private SellerService sellerService;
-    
+
     @PostMapping
     public Seller save(@RequestBody Seller seller) {
         return sellerService.save(seller);
@@ -25,7 +25,6 @@ public class SellerController {
     public List<Seller> sellers() {
         return sellerService.sellers();
     }
-
 
     @GetMapping("/{id}")
     public Seller findSellerById(@PathVariable(value = "id") Long id) {
