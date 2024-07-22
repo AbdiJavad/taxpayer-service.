@@ -19,6 +19,7 @@ public class HealthCheckController {
 
     @Autowired
     private HealthCheckRepository healthCheckRepository;
+
     @GetMapping
     public List<HealthCheck> healthChecks() {
         HealthCheck check = new HealthCheck();
