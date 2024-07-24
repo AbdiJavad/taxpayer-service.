@@ -10,9 +10,9 @@ import java.util.Date;
 @RestController
 @RequestMapping("hi")
 public class DateController {
-    
+
     @GetMapping
-    public String date(@PathParam(value = "name") String name){
+    public String date(@PathParam(value = "name") String name) {
         return "Hello " + name;
     }
 }
