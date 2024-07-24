@@ -32,12 +32,13 @@ public class CustomerController {
         return customerService.findCustomerById(customerId);
     }
 
-    
+
     @DeleteMapping("/{customerId}")
     public void deleteCustomerById(@PathVariable(value = "customerId") Long customerId) {
         customerService.deleteCustomerById(customerId);
     }
 
+    
     @PutMapping("/{customerId}")
     public Customer updateCustomer(
             @PathVariable(value = "customerId") Long customerId,
