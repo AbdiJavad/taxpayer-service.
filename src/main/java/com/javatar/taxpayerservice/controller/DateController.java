@@ -11,7 +11,6 @@ import java.util.Date;
 @RequestMapping("hi")
 public class DateController {
 
-
     @GetMapping
     public String date(@PathParam(value = "name") String name) {
         return "Hello " + name;
