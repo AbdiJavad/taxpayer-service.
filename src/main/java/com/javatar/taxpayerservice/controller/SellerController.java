@@ -20,12 +20,13 @@ public class SellerController {
         return sellerService.save(seller);
     }
 
-    
+
     @GetMapping
     public List<Seller> sellers() {
         return sellerService.sellers();
     }
 
+    
     @GetMapping("/{id}")
     public Seller findSellerById(@PathVariable(value = "id") Long id) {
         return sellerService.findSellerById(id);
