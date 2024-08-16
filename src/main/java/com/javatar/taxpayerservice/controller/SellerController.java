@@ -20,6 +20,7 @@ public class SellerController {
         return sellerService.save(seller);
     }
 
+    
     @GetMapping
     public List<Seller> sellers() {
         return sellerService.sellers();
