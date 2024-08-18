@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 public class TutorialDetailsController {
 
 
+    
     @Autowired
     private TutorialDetailsRepository detailsRepository;
 
