@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api")
 public class TutorialDetailsController {
 
-    
+
     @Autowired
     private TutorialDetailsRepository detailsRepository;
 
