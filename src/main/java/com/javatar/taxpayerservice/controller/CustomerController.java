@@ -37,7 +37,6 @@ public class CustomerController {
         customerService.deleteCustomerById(customerId);
     }
 
-
     @PutMapping("/{customerId}")
     public Customer updateCustomer(
             @PathVariable(value = "customerId") Long customerId,
