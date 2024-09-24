@@ -31,7 +31,6 @@ public class CustomerController {
     public Customer findCustomerById(@PathVariable(value = "customerId") Long customerId) {
         return customerService.findCustomerById(customerId);
     }
-
     
     @DeleteMapping("/{customerId}")
     public void deleteCustomerById(@PathVariable(value = "customerId") Long customerId) {
