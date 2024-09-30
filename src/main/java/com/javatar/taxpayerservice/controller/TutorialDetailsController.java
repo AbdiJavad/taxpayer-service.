@@ -19,6 +19,7 @@ public class TutorialDetailsController {
     private TutorialDetailsRepository detailsRepository;
     @Autowired
     private TutorialRepository tutorialRepository;
+
     @PostMapping("/tutorials/{tutorialId}/details")
     public ResponseEntity<TutorialDetails> createDetails(@PathVariable(value = "tutorialId") Long tutorialId,
                                                          @RequestBody TutorialDetails detailsRequest) {
