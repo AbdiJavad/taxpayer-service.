@@ -16,7 +16,7 @@ public class TutorialController {
     @Autowired
     TutorialRepository tutorialRepository;
 
-    
+
     @PostMapping("/tutorials")
     public Tutorial createTutorial(@RequestBody Tutorial tutorial) {
         return tutorialRepository.save(tutorial);
