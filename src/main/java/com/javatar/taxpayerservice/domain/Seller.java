@@ -14,12 +14,12 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @PrimaryKeyJoinColumn(name = "id")
-public class Seller extends Person{
+public class Seller extends Person {
 
     private String publicKey;
     private String privateKey;
     private String CSR; //Certificate Signing Request
     private Boolean showLogo;
-//    private byte[] logo;
+    //    private byte[] logo;
     private String logo;
 }
