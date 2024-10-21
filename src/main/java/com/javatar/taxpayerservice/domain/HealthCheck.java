@@ -6,6 +6,7 @@ import lombok.Data;
 import java.sql.Timestamp;
 import java.util.Date;
 
+
 @Data
 @Entity
 public class HealthCheck {
