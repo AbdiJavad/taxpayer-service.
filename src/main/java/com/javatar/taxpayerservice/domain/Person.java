@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import com.javatar.taxpayerservice.domain.data.*;
 import lombok.experimental.SuperBuilder;
 
+
 @Data
 @Entity
 @NoArgsConstructor
