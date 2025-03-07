@@ -1,7 +1,6 @@
 package com.javatar.taxpayerservice.controller;
 
 
-
 import com.javatar.taxpayerservice.domain.Factor;
 import com.javatar.taxpayerservice.service.FactorService;
 import io.swagger.v3.oas.annotations.tags.Tag;
