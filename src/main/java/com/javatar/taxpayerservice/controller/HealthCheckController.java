@@ -1,7 +1,6 @@
 package com.javatar.taxpayerservice.controller;
 
 
-
 import com.javatar.taxpayerservice.domain.HealthCheck;
 import com.javatar.taxpayerservice.repository.HealthCheckRepository;
 import org.springframework.beans.factory.annotation.Autowired;
