@@ -1,4 +1,5 @@
 server:
+
   port: 6060
 
 spring:
