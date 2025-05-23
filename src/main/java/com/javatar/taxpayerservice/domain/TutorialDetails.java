@@ -1,6 +1,5 @@
 package com.javatar.taxpayerservice.domain;
 
-
 import jakarta.persistence.*;
 import lombok.Data;
 
