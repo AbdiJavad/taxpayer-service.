@@ -1,6 +1,5 @@
 package com.javatar.taxpayerservice.service;
 
-
 import com.javatar.taxpayerservice.domain.Customer;
 import com.javatar.taxpayerservice.domain.Factor;
 import com.javatar.taxpayerservice.domain.Product;
