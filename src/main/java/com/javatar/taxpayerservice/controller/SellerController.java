@@ -1,6 +1,5 @@
 package com.javatar.taxpayerservice.controller;
 
-
 import com.javatar.taxpayerservice.domain.Seller;
 import com.javatar.taxpayerservice.service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
